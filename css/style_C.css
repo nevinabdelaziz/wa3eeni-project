@@ -1,0 +1,96 @@
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #D1D2D3;  
+    
+}
+.big_contaoner{
+ background-image:url("../images/background%20-virus%20cxhdpi.png");
+ background-size: cover;
+   
+}
+
+    
+.small-box{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+     border: 5px solid #2C5877;
+     position: relative; 
+    border-right:5px solid transparent; 
+    margin-top: 20px;
+ }
+.small-box:hover {
+     border: 5px solid #9B0416;
+    border-right:5px solid transparent; 
+}
+.small-box div{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+  background-color: white;position: absolute;
+   text-align: center;
+}
+.small-box img{
+  margin-top: 10px;
+    width:25px;
+    height:25px;
+}
+.outer_div{
+ border: 2px dashed white;
+    width:260px;
+    height:260px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+}
+.inner_div{
+  width:250px;
+    height:250px;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.inner_div img{
+     width: 200px;
+    height: auto;
+}
+.outer_small_div{
+border: 2px dashed white;
+width:110px;
+height:110px;
+border-radius: 50%;
+margin: auto;text-align: center;
+}
+.inner_small_div{
+  width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: auto;
+    background-color:whitesmoke;
+    margin-top: 3px;
+}
+.small_div_left{
+  float: left;
+   width:80px; 
+    height:80px;
+}
+.small-div_right{
+    float: right;
+    width:80px; 
+    height:80px;"
+}
+.small-div_right div , .small_div_left div
+{
+ width:70px;
+    height:70px;
+}
+.small-div_right img , .small_div_left img
+{
+  width: 50px;
+    height: 50px;
+}
+#content2 ,#content1{
+    display: none;
+}

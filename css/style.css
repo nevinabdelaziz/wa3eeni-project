@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #D1D2D3;  
+    
+}
+.container{
+
+ background-image: url(../images/background-land%20page%20xhdpi.png);
+ background-size: cover;
+    margin-left: 100px;}
+
+.small-box{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+     border: 5px solid #2C5877;
+     position: relative; 
+    border-right:5px solid transparent; 
+    margin-top: 20px;
+ }
+
+.small-box div{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+  background-color: white;position: absolute;
+   text-align: center;
+}
+.small-box img{
+  margin-top: 15px;
+    width:40px;
+    height:40px;
+}
+
+
+.big_circle{
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 50%; 
+    position: absolute;
+    left:30%;
+    top:9%;
+}
+
+.small-box{
+  animation: rotation 8s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotation2 {
+  
+    transform: rotate(0deg);
+ 
+}
+
+
+
+.small-box:hover {
+   animation: rotation2 8s infinite linear;
+     border: 5px solid #9B0416;
+    border-right:5px solid transparent; 
+
+    transform: scale(1.5,1.5);
+}
+
